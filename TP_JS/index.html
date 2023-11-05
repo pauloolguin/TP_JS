@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="background-color: gray; height: 50px;">
+    
+      <a class="navbar-brand" href="#" style="color: #fff; width: 100px; font-size: 30px;">Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="padding-left: 360px; font-size: 18px;" id="navbarSupportedContent" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color:white;">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">El lugar y la fecha</a>
+          </li>
+          <a class="nav-link" href="#" style="color: #fff;">Conviértete en orador</a>
+          <a class="btn btn-prymary" href="index.html" role="button" style="color: #fff;">Comprar tickets</a>            
+        
+        </form>
+      </div>
+    </div>
+  
+  </nav>
+</nav> 
+
+  
+    <div class="container">
+    <form>
+
+      <div class="ventana row mx-auto mt-3">
+        <!-- <div class="caja"> -->
+          
+              <div class="cuadrado1 col-4 ">
+                <h2 >Estudiante</h2>
+                <p >Tienen un descuento</p>
+                <h3>80%</h3>
+                <h6>*presentar documentación</h6>               
+              </div>
+     
+          
+            <div class="cuadrado2 col-4">
+              <h2>Trainee</h2>
+              <p>Tienen un descuento</p>
+              <h3>50%</h3>
+              <h6>*presentar documentación</h6>               
+            </div>
+          
+  
+         
+              <div class="cuadrado3 col-4">
+               <h2>Junior</h2>
+               <p>Tienen un descuento</p>
+               <h3>15%</h3>
+               <h6>*presentar documentación</h6>               
+              </div>
+          
+     <div>
+     <div class="row  mt-3 mx-auto">
+        <div class="col-12">
+         <div class="venta" >
+           <h6>VENTA</h6>
+           <h1>VALOR DE TICKET $200</h1>
+         </div>
+        </div>
+      </div>
+
+      <div class="row ">
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+            </div>        
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+            </div>
+      </div>
+
+      <div class="row mt-3 "  >
+          <div class="col-12">       
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="correo" aria-describedby="emailHelp">
+          </div>
+ 
+       </div> 
+         
+       <div class="row mt-3  ">
+        <div class="col-6 nombres">
+          <label  for="cantidad">Cantidad</label>
+          <input id="cantidad" type="text" class="form-control mt-3" placeholder="Cantidad" name="cantidad">
+        </div>
+
+        <div class="col-6 nombres">  
+          <label >Categoría</label>       
+            <select id="categoria" class="form-select mt-3 ">
+               
+                <option>Estudiante</option>
+                <option>Trainee</option>
+                <option>Junior</option>
+            </select>
+         </div>
+      </div>
+
+   
+      <div class="row bg-primary-subtle text-primary mt-3 mx-auto rounded-1"  >
+        <div class="col-12 nombres "> 
+          <label  id="labeltotal" class="p-2">Total a Pagar $:</label>      
+        </div>
+      </div>
+  
+        <div class="row mt-3 text-center my-auto">
+          <div class="d-grid gap-2 col-6 ">
+               <button type="reset" onclick="limpiar()" class="btn btn-success  btn-block">Borrar</button>
+          </div>
+          <div class="d-grid  col-6 ">
+           <button type="button" onclick="calculartotal()" class="btn btn-block btn-success btn-block">Resumen</button>
+          </div>   
+               </form>
+
+        </div>
+        
+    
+
+<pre></pre>
+
+
+
+        <div class="container-fluid">
+      <footer class="row align-items-start text-white" style="background-color: grey; ">
+    
+
+      <div class="row-col-xs12 col-md-6 col-lg-2">
+     <p>Preguntas frecuentes</p>
+    </div>
+    <div class="row-col-xs12 col-md-6 col-lg-2">
+      <p>Contáctanos</p>
+     </div>
+     <div class="row-col-xs12 col-md-6 col-lg-2">
+      <p>Prensa</p>
+     </div>
+     <div class="row-col-xs12 col-md-6 col-lg-2">
+      <p>Preguntas frecuentes</p>
+     </div>
+     <div class="row-col-xs12 col-md-6 col-lg-2">
+      <p>Conferencias</p>
+     </div>
+     <div class="row-col-xs12 col-md-6 col-lg-2">
+      <p>Término y condiciones</p>
+     </div>
+     
+     </div>
+</div>
+</footer> 
+</div>
+
+<div>
+
+</div>
+ 
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

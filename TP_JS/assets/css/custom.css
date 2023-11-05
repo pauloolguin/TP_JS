@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+section {
+  font-family: 'Quicksand', Tahoma, Verdana, sans-serif!important;
+  font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+
+a {
+  color: var(--bs-blue);
+}
+
+.container{
+  width: 65%;
+  /* 
+  margin: 10%;
+  margin-left:10%;
+  margin-right:10%;
+  justify-content: center
+  */
+}
+
+
+
+.caja{
+ /* display: inline-flex;
+  margin-left: 240px;*/
+}
+
+
+.cuadrado1{
+  width: 240px;
+  height: 200px;    
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  border-color: mediumslateblue;
+  border-style: solid;
+  padding-top: 15px;
+}
+.cuadrado2{
+  width: 240px;
+  height: 200px;    
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  border-style: solid;
+  border-color: green;
+  padding-top: 15px;
+}
+.cuadrado3{
+  width: 240px;
+  height: 200px;   
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  border-color: yellow;
+  border-style: solid;
+  padding-top: 15px;
+}
+.venta{
+  margin:auto;
+  text-align: center;
+  align-items: center;
+}
+
+.nombres{
+  margin:auto;
+  text-align:left;
+  align-items: left;
+}
+
+
+.form{
+  background-color: beige;
+  /*display: inline-flex;
+  margin-left: 240px;*/
+  margin-bottom: 10px;
+}
+
+.nombre{
+  width: 400px;
+  height: 38px;    
+  border-color: black;
+  border-radius: 5px;
+  
+}
+
+.apellido{
+  width: 400px;
+ height: 38px;  
+  border-color: black;
+  border-radius: 5px;
+  margin-left: 25px;
+  
+
+}
